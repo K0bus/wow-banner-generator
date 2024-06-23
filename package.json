@@ -1,0 +1,28 @@
+{
+  "name": "wow-banner-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --env-file=.env test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/K0bus/wow-banner-generator"
+  },
+  "keywords": [
+    "warcraft",
+    "wow",
+    "api",
+    "nodejs",
+    "banner",
+    "image",
+    "generator"
+  ],
+  "author": "K0bus",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "canvas-image-cover": "^2.0.2"
+  }
+}
