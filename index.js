@@ -86,9 +86,9 @@ WBG.prototype.generateBannerRaw =
                 context.fillStyle = "#fff";
                 context.fillText(text, canvas.width/2, canvas.height/2+(size/2));
 
-                //context.strokeStyle = 'black';
-                //context.lineWidth = 5;  //define the width of the stroke line
-                //context.strokeText(text, canvas.width/2, canvas.height/2+(size/2));
+                context.strokeStyle = 'black';
+                context.lineWidth = 5;  //define the width of the stroke line
+                context.strokeText(text, canvas.width/2, canvas.height/2+(size/2));
 
 
                 resolve(canvas.toBuffer("image/png"));
